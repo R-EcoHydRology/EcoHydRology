@@ -13,7 +13,7 @@ rev681}
 \tabular{ll}{
 Package: \tab SWATmodel\cr
 Type: \tab Package\cr
-Version: \tab 0.6.01\cr
+Version: \tab 0.6.02\cr
 Date: \tab 2011-12-22\cr
 License: \tab GPL-2\cr
 LazyLoad: \tab yes\cr
