@@ -7,11 +7,11 @@ A function to grab daily stream flow measurements from GRDC Daily files
 A function to grab daily stream flow measurements from a GRDC Daily Flow file and makes a list metadata + data object similar to EcoHydrology::get_grdc_gage.
 }
 \usage{
-get_grdc_gage(filename=grdcfilename)
+get_grdc_gage(lfilename=grdcfilename)
 }
 \arguments{
-  \item{filename}{
-  \code{filename} filname is a TEXT/String rather than numeric or the query will fail on gages with leading 0s
+  \item{lfilename}{
+  \code{lfilename} filname is a TEXT/String rather than numeric or the query will fail on gages with leading 0s
 }
 }
 \value{
@@ -28,7 +28,7 @@ Daniel R Fuka
 
 \dontrun{
 grdcfilename="1577050_Q_Day.Cmd.txt"
-flowgage=get_grdc_gage(filename=grdcfilename)
+flowgage=get_grdc_gage(lfilename=grdcfilename)
 
 ## The function is currently defined as
 }
